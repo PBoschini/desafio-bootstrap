@@ -29,9 +29,7 @@ header h1 {
 }
 
 .row img {
-    border-radius: 40px;
-    border-style: solid;
-    border-color: lightcoral;
+    border-radius: 40px;    
 }
 
 .row h1 {
