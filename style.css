@@ -14,7 +14,7 @@ header h1 {
 }
 
 .carousel-inner {
-    max-height: 40rem;
+    max-height: 60rem;
 }
 
 .presentacion-pasteleria h1 {
@@ -67,5 +67,7 @@ header h1 {
 
 .locales img {
        height: auto;
-       min-width: 200px
+       min-width: 200px;
+       border-radius: 100px;
+       
 }
