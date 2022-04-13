@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+    
+    <title>The Bakery</title>
+
+</head>
+<body>
+    
+    <header class="container-fluid bg-danger d-flex justify-content-center">
+        <h1 class="text-light mb-0 p-2 fs-1">The Bakery</h1>
+    </header>
+
+<!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <span class="text-danger fs-3 fw-bold">Bakery</a></span> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#pasteleria">Pasteleria</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nosotros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                  <li><a class="dropdown-item" href="#quienes-somos">Quienes Somos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#locales">Locales</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+              <button class="btn btn-danger btn-danger-outline-success" type="button">Registro</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CAROUSEL -->
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./imagenes/slider1.jpg" class="d-block w-100" alt="slider1">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./imagenes/slider2.jpg" class="d-block w-100" alt="slider2">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./imagenes/slider3.jpg" class="d-block w-100" alt="slider3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="presentacion-pasteleria text-center">
+          <h1 class="container-fluid d-flex justify-content-center pt-5 text-danger">Pasteleria</h1>
+          <p class="d-flex justify-content-center pt-1 m-3">Desde 1955 elaboramos nuestros productos con ingredientes de primera linea para poder conseguir un sabor de excelencia.</p>
+      </div>
+
+
+      <div class="presentacion-pasteleria text-center">
+          <h1 class="container-fluid text-danger pt-5">Nuestros Productos</h1>
+      </div>
+
+      <!-- GRID -->
+
+      <div class="container-fluid" id="pasteleria">
+        <div class="row pt-5">
+         
+            <div class="col">        
+        <div class="d-flex justify-content-center">
+            <img src="./imagenes/tortas.jpg" alt="tortas" width="180" height="160">
+        </div>
+            <h1 class="text-center">Tortas</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur pariatur, autem cum eligendi magnam consequuntur tenetur quam, amet magni libero tempore ab modi excepturi eveniet fugit quos voluptates eos?</p>
+          </div>
+        
+          <div class="col">              
+        <div class="d-flex justify-content-center">              
+            <img src="./imagenes/panes.jpg" alt="panes" width="180" height="160">
+        </div>
+            <h1 class="text-center">Pan Casero</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestiae dolor eligendi esse, illo neque tempore quos pariatur eius dolorem quod, facere deleniti. Alias ut corporis commodi quae eveniet placeat?</p>
+          </div>
+          
+          <div class="col">
+            <div class="d-flex justify-content-center">
+            <img src="./imagenes/cupcakes.jpg" alt="cupcakes" width="180" height="160">
+        </div>
+            <h1 class="text-center">Cupcakes</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum reiciendis, minus distinctio rem ad doloribus saepe, ea est ipsa, mollitia voluptatum commodi? Ex dolorem, cum consequatur pariatur veritatis at exercitationem!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row pt-5">
+         
+            <div class="col">        
+        <div class="d-flex justify-content-center">
+            <img src="./imagenes/chipa.jpg" alt="chipa" width="180" height="160">
+        </div>
+            <h1 class="text-center">Chipa</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consectetur pariatur, autem cum eligendi magnam consequuntur tenetur quam, amet magni libero tempore ab modi excepturi eveniet fugit quos voluptates eos?</p>
+          </div>
+        
+          <div class="col">              
+        <div class="d-flex justify-content-center">              
+            <img src="./imagenes/cookies.jpg" alt="cookies" width="180" height="160">
+        </div>
+            <h1 class="text-center">Cookies</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestiae dolor eligendi esse, illo neque tempore quos pariatur eius dolorem quod, facere deleniti. Alias ut corporis commodi quae eveniet placeat?</p>
+          </div>
+          
+          <div class="col">
+            <div class="d-flex justify-content-center">
+            <img src="./imagenes/medialunas.jpg" alt="medialunas" width="180" height="160">
+        </div>
+            <h1 class="text-center">Medialunas</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum reiciendis, minus distinctio rem ad doloribus saepe, ea est ipsa, mollitia voluptatum commodi? Ex dolorem, cum consequatur pariatur veritatis at exercitationem!</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SERVICIOS -->
+
+      <div class="container-fluid servicios pt-5" id="servicios">
+          <h1 class="d-flex justify-content-center text-danger">Servicios</h1>
+      </div>
+
+      
+      
+      <div class="container-fluid d-flex justify-content-around p-5">
+      
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/desayuno.png" class="card-img-top" alt="desayuno">
+        <div class="card-body">
+          <p class="card-text">DESAYUNOS - productos a eleccion dentro de una gran variedad disponible</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/brunch.jpg" class="card-img-top" alt="desayuno">
+        <div class="card-body">
+          <p class="card-text">BRUNCH - productos a eleccion dentro de una gran variedad disponible</p>
+        </div>
+      </div>
+</div>
+
+<div class="container-fluid d-flex justify-content-around p-5">
+      
+    <div class="card" style="width: 18rem;">
+      <img src="./imagenes/catering.jpeg" class="card-img-top" alt="desayuno">
+      <div class="card-body">
+        <p class="card-text">SERVICIO DE CATERING - productos a eleccion dentro de una gran variedad disponible</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./imagenes/mesa-dulce.jpeg" class="card-img-top" alt="desayuno">
+      <div class="card-body">
+        <p class="card-text">MESA DULCE - servicio pensado para fiestas</p>
+      </div>
+    </div>
+</div>
+
+
+<div class="container-fluid d-flex justify-content-center contacto" id="contacto">
+  <h1 class="text-danger pt-5">Contacto</h1>
+</div>
+
+<div class="container-fluid text-center info-contacto">
+<p>Telefono - 11-6020-3031</p>
+<p>Correo Electronico - thebakery@gmail.com</p>
+</div>
+
+
+<section>
+
+
+<div class="container-fluid d-flex justify-content-center contacto" id="quienes-somos">
+  <h1 class="text-danger pt-5">Quienes Somos</h1>
+</div>
+
+<div class="container-fluid text-center info-contacto">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, non fugit laudantium necessitatibus voluptatum deserunt iure quam aliquid, ullam dolorem quis cumque odit illo vitae suscipit consequatur magni omnis. Voluptatem!
+  Recusandae magni quas labore quis dicta officiis voluptate at quos quidem modi quasi debitis eveniet sequi, ex doloribus. Iure quisquam eveniet laborum nisi quis blanditiis velit quasi sunt perferendis molestiae.
+  Sint iste sunt rem asperiores eveniet quo dolor expedita illo voluptatibus magni unde provident, hic excepturi delectus a aliquam soluta sapiente reiciendis atque? Itaque optio quasi delectus assumenda. Nam, aut.
+  Dolore, dignissimos, nobis, qui labore beatae a ad odit laudantium veniam eos aut. Illo nemo labore porro magni rerum consectetur quis voluptates iste laudantium impedit distinctio, nostrum ipsa vel ab.
+  Explicabo repellendus neque pariatur modi minima quia nulla eius eveniet accusamus voluptatibus vitae blanditiis soluta aperiam expedita a, atque optio asperiores doloremque saepe nisi dolor architecto incidunt illum cum? Sunt!
+  Animi dolores at qui pariatur deserunt. Aliquid sit, quod ratione explicabo optio eos sequi sunt aspernatur ab eligendi, esse, dolorum tempora? Molestias, quas amet recusandae enim et explicabo omnis debitis.
+  Corporis blanditiis numquam similique sed! Velit, placeat quidem! Dicta voluptatem dolores blanditiis veniam, nemo pariatur nobis quas, nihil molestias placeat itaque dignissimos perspiciatis deserunt reprehenderit quae maxime quaerat omnis iusto.
+  Exercitationem nemo eveniet error ipsum dolor a sit commodi quod aperiam, numquam libero rerum unde ad accusamus! Aspernatur fugit minus, vero beatae, quaerat possimus magnam dolorum enim quasi voluptatum dicta.
+  Aliquam aperiam dolorum nesciunt nam, quod nobis debitis distinctio laborum cupiditate reiciendis atque aliquid, animi veritatis. Deleniti, quibusdam quaerat doloribus architecto tenetur ex magnam odio impedit, adipisci laudantium non eaque?
+  Quas voluptatibus, tenetur beatae pariatur aliquam deleniti maxime laudantium repellendus distinctio minima corrupti molestias quidem voluptatem necessitatibus cumque exercitationem maiores accusamus omnis dolorum doloremque facere velit nostrum. Dolore, quos ea?</p>
+  </div>
+
+</section>
+
+
+<div class="container-fluid d-flex justify-content-center contacto" id="quienes-somos">
+  <h1 class="text-danger pt-5">Locales</h1>
+</div>
+
+
+
+<section class="container-fluid d-flex justify-content-around locales" id="locales">
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12485.90815838205!2d2.3446918387067712!3d48.861283220848854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc092d02a59%3A0xc2485c7dc6dfd817!2zTGFkdXLDqWU!5e0!3m2!1ses!2sar!4v1649830223586!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<img src="./imagenes/local.jpg" alt="local" width="800" height="450">
+
+</section>
+
+
+
+
+      
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>

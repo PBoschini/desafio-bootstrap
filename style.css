@@ -1,0 +1,73 @@
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    overflow-x: hidden; 
+}
+
+#menu a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#menu button {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+.presentacion-pasteleria h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    
+}
+
+.presentacion-pasteleria {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.row img {
+    border-radius: 40px;
+    border-style: solid;
+    border-color: lightcoral;
+}
+
+.row h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.row p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.servicios h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.card p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.contacto h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.info-contacto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.locales {
+    flex-wrap: wrap;
+}
+
+.locales img {
+       height: auto;
+       min-width: 200px
+}
