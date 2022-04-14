@@ -95,3 +95,22 @@ header h1 {
 #preguntas-frecuentes-box {
     height: 25rem;
 }
+
+
+.titulo-trabaja-con-nosotros {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.parrafo-trabaja-con-nosotros {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;    
+}
+
+.requisitos li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;     
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
