@@ -114,3 +114,36 @@ header h1 {
     list-style: none;
     font-size: 20px;
 }
+
+#formulario {
+    width: 100%;
+}
+
+#exampleFormControlInput1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#exampleFormControlTextarea1 {
+    width: 50%;
+    max-height: 200px;
+}
+
+#consulta {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.parrafo-consulta {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.consulta {
+    height: 685px;
+}
+
+
+
+
